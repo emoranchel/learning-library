@@ -2,21 +2,21 @@
 layout: ziplab
 description: Learn how to deploy a Dropwizard REST application to Oracle Application Container Cloud service.
 tags: Oracle Cloud, Application Container Cloud Service
-permalink: /ziplabs/dropwizard-accs/index.html
+permalink: /ziplabs/dropwizard-accs/index-es.html
 ref: ziplab/dropwizard-accs
-lang: en
+lang: es
 ---
-# Deploy a Dropwizard Application to Oracle Cloud #
+# Desplegar una Applicación Dropwizard en Oracle Cloud #
 
-## Before You Begin ##
+## Antes de Empezar ##
 This 10-minute tutorial shows you how to deploy a web service to Oracle Application Container Cloud Service using the Dropwizard framework. 
 
-### Background ###
+### Antecedentes ###
 Dropwizard is an open source Java framework that you can use to quickly create RESTful web services. Dropwizard integrates several components and Java frameworks that can help you build more robust applications.
 
 In this tutorial, you create and deploy a web service for an employee directory application to Oracle Application Container Cloud Service. Data for the application is stored in an in-memory database. You test the REST service by using an HTML5 JavaScript client.
 
-### What Do You Need? ###
+### ¿Qué Necesitas? ###
 * Access to an instance of Oracle Application Container Cloud Service
 * [Oracle's Java Development Kit 8 (JDK 8)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * [Apache Maven 3.0+](http://maven.apache.org/download.cgi)
@@ -25,7 +25,7 @@ In this tutorial, you create and deploy a web service for an employee directory 
 * [A storage replication policy for your service instance](https://docs.oracle.com/en/cloud/iaas/storage-cloud/cssto/selecting-replication-policy-your-account.html)
 * [A storage container](https://docs.oracle.com/en/cloud/iaas/storage-cloud/cssto/creating-containers.html)
 
-## Create the Java Project with Maven ##
+## Crear un Proyecto Java con Maven ##
 
 1. Unzip the Dropwizard Maven project.
 

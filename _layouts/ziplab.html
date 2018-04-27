@@ -37,6 +37,20 @@
                 <img src="../common/img/oracle_doc_logo.png" alt="Oracle Documentation" style="max-width: none;" height="22" width="236">
             </a>
         </div>
+        <ul style="overflow: auto; list-style: none; position: absolute; top:2px; right: 2px;">
+            {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+            {% for post in posts %}
+            <li style="display: inline">
+                <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a> |
+            </li>
+            {% endfor %}
+            {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+            {% for page in pages %}
+            <li style="display: inline">
+                <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a> |
+            </li>
+            {% endfor %}
+        </ul>
     </header>
     <!--end header-->
 
